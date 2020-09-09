@@ -2,8 +2,10 @@ Code Review Rubric
 ------
 
 - Effectiveness
+    - Code implements both the letter and the spirit of the specification
     - Runs without errors
-    - Passes all unit tests
+    - Passes all tests
+    - Passes all tests within timelimits
     - Handles all typical cases
     - Handles common edge cases
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -18,15 +20,15 @@ Code Review Rubric
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Readability
     - Clear, semantic naming
-    - A single lines only contains a single idea
+    - A single line only contains a single idea
     - No unnecessary variables
-    - Style always follows pep8 conventions
-    - Consistent formatting/indentation
+    - Style follows [pep8](https://pep8.org/) conventions as much as possible
+    - Consistent formatting
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Documentation
     + All modules have a docstring
     + All functions have a docstring
     + Each line has a comment
     + All documentation are meaningful and complete thoughts
-    + All documentation is formatted consistent with style guidelines
+    + All documentation is formatted consistent with [style guidelines](https://github.com/brianspiering/computation_course/blob/master/resources/advice/comment_style_guidelines.md)
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
